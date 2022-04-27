@@ -13,14 +13,8 @@ sudo apt install screen neofetch -y > /dev/null
 echo "Dependencies are installed successfully"
 
 #Downloading ngrok && Downloading Minecraft Server
-mkdir server ngrok
-echo "enter your authentication token for NGROK"
-read token
-./ngrok_ authtoken $token 
-
-
-# token installed successfully
-echo "Token Installed Successfully"
+mkdir server
+./playit
 
 #Downloading Server
 echo "Input the URL/Address of minecraft server you wanna install > "
