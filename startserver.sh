@@ -7,7 +7,7 @@ echo"Dependencise installed successfully.... !Hurray"
 #starting the server 
 
 screen -S server -d -m ./start_java_server.sh
-screen -S ngrok -d -m ./start_ngrok_server.sh
+screen -S ./playit
 
 
 echo "Server Has been started"
